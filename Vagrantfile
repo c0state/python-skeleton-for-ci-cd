@@ -30,6 +30,7 @@ Vagrant.configure(2) do |config|
       bash -c "(curl https://bootstrap.pypa.io/get-pip.py | python)"
     fi
     pip install -r /vagrant/app/requirements.txt
+    pip install -r /vagrant/app/requirements-dev.txt
 
     if ! which node; then
       curl -sL https://deb.nodesource.com/setup_5.x | bash -
