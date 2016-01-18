@@ -1,0 +1,5 @@
+dependencies:
+  pre:
+    - ~/provisioning/install_vagrant.sh
+
+
