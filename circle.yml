@@ -2,4 +2,4 @@ dependencies:
   pre:
     - sudo ~/$CIRCLE_PROJECT_REPONAME/provisioning/install_vagrant.sh
     - sudo ~/$CIRCLE_PROJECT_REPONAME/provisioning/install_virtualbox.sh
-    - vagrant up
+    - cd ~/$CIRCLE_PROJECT_REPONAME && vagrant up
