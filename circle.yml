@@ -4,4 +4,5 @@ dependencies:
 
 test:
   pre:
-    - PYTHONPATH=$PYTHONPATH:~/$CIRCLE_PROJECT_REPONAME python ~/$CIRCLE_PROJECT_REPONAME/app/main_app.py
+    - PYTHONPATH=$PYTHONPATH:~/$CIRCLE_PROJECT_REPONAME python ~/$CIRCLE_PROJECT_REPONAME/app/main_app.py:
+      background: true
