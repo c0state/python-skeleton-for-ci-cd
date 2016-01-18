@@ -1,5 +1,3 @@
 dependencies:
   pre:
-    - ~/provisioning/install_vagrant.sh
-
-
+    - ~/$CIRCLE_PROJECT_REPONAME/provisioning/install_vagrant.sh
